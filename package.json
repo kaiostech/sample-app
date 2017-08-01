@@ -6,6 +6,7 @@
   "scripts": {
     "build": "webpack --config webpack.config.dev",
     "dev": "webpack --config webpack.config.dev --watch",
+    "prod": "webpack --config webpack.config.prod",
     "clean": "rm build/bundle.js"
   },
   "devDependencies": {

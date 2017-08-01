@@ -1,6 +1,6 @@
 {
   "name": "Hello",
-  "description": "An example App without any KaiOS dependency",
+  "description": "Sample app for KaiOS development",
   "launch_path": "/index.html",
   "type": "certified",  
   "permissions": {
