@@ -1,0 +1,27 @@
+:root {
+  --statusbar-height: 2.6rem;
+  --softkeybar-height: 3rem;
+  --header-background: #873eff;
+}
+
+html {
+  font-size: 10px;
+}
+
+html, body, #root, #app {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.statusbar-placeholder {
+  height: var(--statusbar-height);
+  background-color: var(--header-background);
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.0rem;
+}

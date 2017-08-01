@@ -1,0 +1,30 @@
+{
+  "name": "Hello",
+  "description": "An Example App With KaiOS Dependency",
+  "launch_path": "/index.html",
+  "type": "certified",  
+  "permissions": {
+    "desktop-notification": {},
+    "serviceworker": {},
+    "themeable": {}
+  },
+  "default_locale": "en-US",
+  "locales": {
+    "en-US": {
+      "name": "Hello",
+      "description": "Hello app, powered by React"
+    }
+  },
+  "icons": {
+    "128": "/resources/hello_128.png"
+  },
+  "orientation": "default",
+  "activities": {},
+  "messages": [
+    { "notification": "/index.html" },
+    { "serviceworker-notification": "/index.html" }
+  ],
+  "chrome": {
+    "statusbar": "overlap"
+  }
+}
