@@ -1,13 +1,13 @@
 {
   "name": "Hello",
-  "description": "An Example App With KaiOS Dependency",
+  "description": "An example App without any KaiOS dependency",
   "launch_path": "/index.html",
   "type": "certified",  
   "permissions": {
     "desktop-notification": {},
     "serviceworker": {},
     "themeable": {}
-  },
+  },  
   "default_locale": "en-US",
   "locales": {
     "en-US": {
